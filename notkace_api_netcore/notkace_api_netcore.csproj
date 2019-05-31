@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <Authors>Archer Harmony</Authors>
+    <Company>County of Humboldt</Company>
+    <Product>NotKace API</Product>
+    <Description>API for connecting with my NotKace app.</Description>
+    <RepositoryUrl>https://github.com/clumsyninja007/notkace-api-netcore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="MySql.Data" Version="8.0.16" />
+  </ItemGroup>
+
+</Project>
