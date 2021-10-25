@@ -1,0 +1,8 @@
+﻿namespace kace_api_netcore.Entities.K2000.Models
+{
+    public class ImUserStateLabelJt
+    {
+        public long ImUserStateId { get; set; }
+        public long LabelId { get; set; }
+    }
+}
